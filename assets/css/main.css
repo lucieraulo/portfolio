@@ -287,6 +287,10 @@ section p {
     margin-top: 40px;
 }
 
+.box:hover {
+    opacity: 0.75;
+}
+
 #img-box {
     align-items: center;
     height: 200px;
@@ -322,7 +326,7 @@ section p {
     margin-left: 5px;
     padding: 7px;
     font-size: 13px;
-    width: 30%;
+    width: 35%;
     text-align: center;
 }
 .text-box {
@@ -407,6 +411,7 @@ section p {
 .icon {
     width: auto;
     height: 50px;
+    margin-left: 5px;
 }
 
 .box-savoir {
@@ -446,4 +451,8 @@ section p {
     margin-top: 20px;
     margin-left: 250px;
     border-radius: 20px;
+}
+
+.dossier-sponsors:hover {
+    opacity: 0.75;
 }
